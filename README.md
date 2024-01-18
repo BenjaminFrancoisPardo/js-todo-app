@@ -1,4 +1,4 @@
-### TO-DO APP FROM UDEMY LESSON - 2021
+# TO-DO APP FROM UDEMY LESSON - 2021
 
 This basic To-Do app is part of Brad Schiff's online Udemy course "Learn JavaScript: Full-Stack from Scratch".
 
