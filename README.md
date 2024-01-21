@@ -26,7 +26,7 @@ Added this README.md file.
 2. Install Node.js on your machine if you do not already have it. Execute the command "npm i" in a terminal at the project's location.
 
 3. Install Docker on your machine if do not already have it. Execute the command "docker compose up" in a terminal at the project's location.
-   If the process exits because it cannot find a reference to your OS and architecture, this means you will have to use another mongo image. You will have to edit the image field in the docker-compose.yml file. You may try "mongo:latest" or search for another tag here: https://hub.docker.com/_/mongo/tags. It is important that you choose a version superior to 6.0.0.
+   If the process exits because it cannot find a reference to your OS and architecture, this means you will have to use another mongo image. You will have to edit the image field in the docker-compose.yml file. You may try "mongo:latest" or search for another tag here: https://hub.docker.com/_/mongo/tags.
 
 4. Execute the command "npm run start" at the project's location (or "npm run watch" for hot server reload).
 

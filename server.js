@@ -11,7 +11,7 @@ let db;
 
 // Initialize server
 (async () => {
-  const dbConnectionString = `mongodb://${process.env.MONGO_ADMIN}:${process.env.MONGO_ADMIN_PASSORD}@localhost:${process.env.MONGO_PORT}/${process.env.DB_NAME}?&authSource=admin`;
+  const dbConnectionString = `mongodb://${process.env.MONGO_ADMIN}:${process.env.MONGO_ADMIN_PASSWORD}@localhost:${process.env.MONGO_HOST_PORT}/${process.env.DB_NAME}?&authSource=admin`;
   const client = new MongoClient(dbConnectionString);
 
   await client.connect();
